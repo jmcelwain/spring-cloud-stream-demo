@@ -6,4 +6,4 @@ Listen to the topic defined in `DemoApplication.java`: `kafka-console-consumer -
 
 Start the demo application.
 
-Publish something to the `docs` Kafka topic: `echo "hi" | kafka-console-producer --broker-list localhost:9092 --topic docs`.
+Publish something to the `docs` Kafka topic: `echo <doc></doc> | kafka-console-producer --broker-list localhost:9092 --topic docs`.
