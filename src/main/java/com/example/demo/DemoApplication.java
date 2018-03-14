@@ -10,8 +10,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.messaging.converter.MessageConverter;
 import org.w3c.dom.Document;
 
-import static org.joox.JOOX.$;
-
 @EnableBinding(DocumentProcessor.class)
 @SpringBootApplication
 public class DemoApplication {
